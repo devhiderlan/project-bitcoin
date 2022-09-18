@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url(./images/bg-body-2.jpg);
+  background: url(../images/bg-body-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -36,10 +36,9 @@ a {
 }
 
 .container {
-  background-image: url(./images/astronauta.png);
+  background-image: url(../images/astronauta.png);
   background-size: cover;
   background-repeat: no-repeat;
-  /* border: 1px solid white; */
   width: 992px;
   height: auto;
   filter: brightness(0.9);
@@ -88,17 +87,17 @@ header h2 {
 
 .counter {
   display: flex;
-  flex-direction: column-reverse;
-  width: 70px;
+  flex-direction: column;
+  width: 75px;
   height: auto;
-  margin: 30px 10px 0 0px;
+  margin: 30px 10px 0 0;
   text-align: center;
   padding: 10px;
   font-size: 25px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(px);
+  -webkit-backdrop-filter: blur(0px);
   border-radius: 5px;
   font-weight: 300;
 }
@@ -119,7 +118,11 @@ form {
   padding: 0 0 150px 100px;
 }
 
-input[type='email'] {
+input {
+  color: white;
+}
+
+input[type='text'] {
   width: 200px;
   height: 40px;
   padding: 20px 47px;

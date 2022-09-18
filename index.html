@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./Assets/css/style.css">
+  <script src="./Assets/js/script.js" defer></script>
   <title>Bitcoin Project</title>
 </head>
 <body>
@@ -27,17 +28,29 @@
         </div>
 
         <div class="countdown">
-          <div class="counter"><span>days</span>36</div>
-          <div class="counter"> <span>hours</span>16</div>
-          <div class="counter"> <span>minutes</span>23</div>
-          <div class="counter"> <span>seconds</span>9</div>
+          <div class="counter" >
+            <p id="days"></p>
+            <span>days</span>
+          </div>
+          <div class="counter" >
+            <p id="hours"></p>
+            <span>hours</span>
+          </div>
+          <div class="counter" > 
+            <p id="minutes"></p>
+            <span>minutes</span>
+          </div>
+          <div class="counter" > 
+            <p id="seconds"></p>
+            <span>seconds</span>
+          </div>
         </div>
         <div class="description">
-          <p>We're set to tauch ina a couple days, join our eraly <br> access to get an inviation.</p>
+          <p>We're set to touch in a couple days, join our early <br> access to get an invitation.</p>
         </div>
 
         <form>  
-          <input type="email" placeholder="Type your email">
+          <input type="text" placeholder="Type your email">
           <input type="submit" value="Join">
         </form>
       </main>
